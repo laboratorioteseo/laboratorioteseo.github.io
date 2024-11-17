@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de contacto de TESEO Labs - Innovación educativa y social">
+    <meta property="og:title" content="Contacto - TESEO Labs">
+    <meta property="og:description" content="Ponte en contacto con nosotros y descubre cómo TESEO Labs puede ayudarte.">
+    <meta property="og:image" content="logo_TESEO.png">
+    <title>Contacto - TESEO Labs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Sidebar and Main Layout -->
+    <div class="flex flex-col md:flex-row">
+        <!-- Sidebar -->
+        <aside class="w-full md:w-64 bg-[#800020] text-white p-6">
+            <h1 class="text-3xl font-bold mb-8">TESEO Labs</h1>
+            <ul class="space-y-4">
+                <li><a href="index.html" class="hover:text-[#ff6f61]">Home</a></li>
+                <li><a href="programas.html" class="hover:text-[#ff6f61]">Programas</a></li>
+                <li><a href="blog.html" class="hover:text-[#ff6f61]">Blog</a></li>
+                <li><a href="contacto.html" class="hover:text-[#ff6f61]">Contacto</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 p-8">
+
+            <!-- Navbar -->
+            <nav class="flex justify-between items-center bg-white shadow p-4 rounded mb-6">
+                <h1 class="text-2xl font-bold text-[#800020]">Contáctanos</h1>
+                <ul class="flex space-x-4">
+                    <li><a href="index.html" class="text-[#800020] hover:underline">Home</a></li>
+                    <li><a href="programas.html" class="text-[#800020] hover:underline">Programas</a></li>
+                    <li><a href="blog.html" class="text-[#800020] hover:underline">Blog</a></li>
+                    <li><a href="contacto.html" class="text-[#800020] hover:underline">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <!-- Contact Info Section -->
+            <section class="bg-white p-6 rounded shadow mb-12">
+                <h2 class="text-3xl font-bold text-[#800020]"></h2>
+                <p class="mt-4 text-gray-600">
+                    En TESEO Labs estamos comprometidos con la innovación educativa, el emprendimiento social y la inclusión. Si deseas ponerte en contacto con nosotros o si tienes preguntas sobre nuestros programas, no dudes en escribirnos.
+                </p>
+            </section>
+
+            <!-- Contact Form Section -->
+            <section class="bg-white p-6 rounded shadow mb-12">
+                <h3 class="text-2xl font-semibold text-[#800020]">Formulario</h3>
+                <form action="submit_form.php" method="POST" class="mt-4 space-y-6">
+                    <label for="name" class="block text-gray-600">Nombre:</label>
+                    <input type="text" id="name" name="name" required class="w-full border border-gray-300 p-3 rounded focus:ring-[#800020]" placeholder="Tu nombre">
+
+                    <label for="email" class="block text-gray-600">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required class="w-full border border-gray-300 p-3 rounded focus:ring-[#800020]" placeholder="Tu correo electrónico">
+
+                    <label for="message" class="block text-gray-600">Mensaje:</label>
+                    <textarea id="message" name="message" required class="w-full border border-gray-300 p-3 rounded focus:ring-[#800020]" placeholder="Escribe tu mensaje"></textarea>
+
+                    <button type="submit" class="bg-[#800020] text-white px-6 py-3 rounded hover:bg-[#ff6f61] w-full">Enviar</button>
+                </form>
+            </section>
+
+            <!-- Social Media Section -->
+            <section class="bg-white p-6 rounded shadow mb-12">
+                <h3 class="text-2xl font-semibold text-[#800020]">Síguenos en redes sociales</h3>
+                <p class="mt-2 text-gray-600">
+                    Conéctate con nosotros a través de nuestras redes sociales para estar al tanto de las últimas noticias y eventos.
+                </p>
+
+                <div class="flex justify-center space-x-6">
+                    <a href="https://www.linkedin.com/company/teseolabs" target="_blank" class="text-[#800020] hover:text-[#ff6f61]">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                    <a href="https://twitter.com/teseolabs" target="_blank" class="text-[#800020] hover:text-[#ff6f61]">
+                        <i class="fab fa-twitter fa-2x"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@teseolabs" target="_blank" class="text-[#800020] hover:text-[#ff6f61]">
+                        <i class="fab fa-tiktok fa-2x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/teseolabs" target="_blank" class="text-[#800020] hover:text-[#ff6f61]">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                    <a href="https://www.facebook.com/teseolabs" target="_blank" class="text-[#800020] hover:text-[#ff6f61]">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@teseolabs" target="_blank" class="text-[#800020] hover:text-[#ff6f61]">
+                        <i class="fab fa-youtube fa-2x"></i>
+                    </a>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-[#1e293b] text-white py-6">
+        <div class="text-center">
+            <p>&copy; 2024 TESEO Labs. Todos los derechos reservados.</p>
+            <p class="text-sm mt-2">
+                <a href="#" class="hover:underline">Aviso Legal</a> |
+                <a href="#" class="hover:underline">Política de Privacidad</a> |
+                <a href="contacto.html" class="hover:underline">Contacto</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
